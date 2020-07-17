@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 600px;
+    margin: 0px;
+    background-image: url(./asset/saqib.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    height: 625px;
+    background-color: black;
+    background-size: cover;
+    border:2px solid bisque;
+}
+.name{
+    border: 2px solid black;
+    justify-content: center;
+    margin-top: 200px;
+    height: 200px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 15px;
+    color:gray;
+}
+p{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 10px;
+    color:gray;
+}
+hr{
+    width: 530px;
+}
+a{
+    font-size: 30px;
+    display: flex;
+    margin-top: 173px;
+    margin-left: 1250px;
+    position: absolute;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: whitesmoke;
+    text-decoration: none;
+    height: 50px;
+}
